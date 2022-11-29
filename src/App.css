@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.App-link {
+  color: #0011fa;
+}
+
+#grid{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cart{
+  width: 20%;
+  position: fixed;
+  top: 20px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+#body{
+  display: flex;
+  width: 80%;
+  padding-left: 20px;
+}
+#filters{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
